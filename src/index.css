@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth box-border;
+  }
+
+  body {
+    @apply font-Poppins scroll-smooth ease-in-out duration-300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    /* apply btn styles here */
+  }
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #005eff;
+    border-radius: 100vh;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0452d7;
+  }
+}
