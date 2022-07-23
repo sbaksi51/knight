@@ -23,8 +23,15 @@
 }
 
 @layer components {
+  .section {
+    @apply w-full flex justify-center items-center;
+  }
+  .container {
+    @apply h-full w-full max-w-[1440px] px-16;
+  }
   .btn {
     /* apply btn styles here */
+    @apply w-fit px-6 py-4 bg-main rounded-lg text-white font-normal hover:bg-main-dark ease-in-out duration-300 cursor-pointer;
   }
 }
 
