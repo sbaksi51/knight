@@ -8,7 +8,7 @@ const ServiceCard = ({
   servicePath,
 }) => {
   return (
-    <div className="bg-white-1 rounded-lg p-8 hover:shadow-[0px_0px_8px_-2px_rgba(0,0,0,0.25)] w-[18rem] flex flex-col justify-center items-start gap-6 ease-in-out duration-200 border-[1px] border-grey-1 hover:border-main-light">
+    <div className="bg-white-1 rounded-lg p-8 hover:shadow-[0px_0px_8px_-2px_rgba(0,0,0,0.25)] w-[18rem] flex flex-col justify-center items-start gap-6 ease-in-out duration-200 border-[1px] border-grey-1 hover:border-main-light hover:scale-[1.1]">
       {/* Icon */}
       <img src={serviceIcon} alt={serviceName} className=" w-[3rem]" />
       {/* Text */}
