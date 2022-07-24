@@ -13,7 +13,7 @@ const Howitworks = () => {
           <h2 className="header-subtitle text-main-light">How it works</h2>
           <h1 className="header-title text-white-2">So how does it work?</h1>
         </div>
-        <div className="steps flex justify-center items-center">
+        <div className="steps flex justify-center items-center mb-12">
           <Step
             stepNumber="1"
             stepTitle="Step Title Text"
