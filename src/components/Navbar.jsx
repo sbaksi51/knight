@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar section h-24 bg-white-1">
-      <div className="navbar__container container flex items-center justify-between">
+      <div className="navbar__container section-container flex items-center justify-between">
         {/* Logo Div */}
         <div className="navbar__logo--container flex justify-center items-center gap-2">
           <img src={Logo} alt="company logo" className="logo h-10 w-10" />
