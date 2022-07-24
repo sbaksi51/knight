@@ -41,7 +41,7 @@ const Navbar = () => {
             <div
               className={
                 dropdown
-                  ? "dropdown absolute top-8 -left-4 flex justify-center items-start flex-col w-[200px] gap-4 bg-white-1 shadow-md p-4 text-sm rounded-lg ease-in-out duration-300"
+                  ? "dropdown absolute top-8 -left-4 flex justify-center items-start flex-col w-[200px] gap-2 bg-white-1 shadow-md p-2 text-sm rounded-lg ease-in-out duration-300"
                   : "hidden ease-in-out duration-300"
               }
             >
@@ -50,7 +50,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 Web Design
@@ -60,7 +60,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 Web Development
@@ -70,7 +70,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 UI/UX Design
@@ -80,7 +80,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 Digital Marketing
@@ -90,7 +90,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 SEO
@@ -100,7 +100,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
+                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
                 Video Editing
