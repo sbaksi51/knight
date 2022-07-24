@@ -11,7 +11,7 @@ const Hero = () => {
           <h2 className="text-2xl text-grey-2 font-normal">
             Welcome to Company
           </h2>
-          <div className="wrapper box-content flex h-[90px] font-bold text-[4rem]">
+          <div className="wrapper box-content flex h-[90px] font-bold text-[4rem] text-black-1">
             <h1>We</h1>
             <div className="words overflow-hidden text-main">
               <span className="block h-full pl-4 animate-word-carousel">

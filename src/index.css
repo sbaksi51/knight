@@ -37,11 +37,20 @@
     /* apply btn styles here */
     @apply w-fit px-[calc(1.5rem-2px)] py-[calc(1rem-2px)] bg-white-1 rounded-lg text-main font-medium hover:bg-main hover:text-white-1 border-2 hover:border-[2px] hover:border-main ease-in-out duration-300 cursor-pointer flex justify-center items-center gap-2 hover:scale-[1.02];
   }
+  .header-subtitle {
+    @apply font-medium text-main uppercase tracking-widest;
+  }
+  .header-title {
+    @apply text-black-1 font-semibold text-5xl;
+  }
+  .header-desc {
+    @apply font-normal text-grey-2 mt-2;
+  }
 }
 
 @layer utilities {
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 4px;
   }
 
   ::-webkit-scrollbar-track {
