@@ -10,6 +10,7 @@ import UiuxPage from "./pages/UiuxPage";
 import DigitalPage from "./pages/DigitalPage";
 import SeoPage from "./pages/SeoPage";
 import VideoEditingPage from "./pages/VideoEditingPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path="seo" element={<SeoPage />} />
         <Route path="videoediting" element={<VideoEditingPage />} />
       </Routes>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
