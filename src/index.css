@@ -46,6 +46,66 @@
   .header-desc {
     @apply font-normal text-grey-2 mt-2;
   }
+
+  /* Custom Input Field */
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .input-wrapper .input-data {
+    height: 2.5rem;
+    width: 100%;
+    position: relative;
+  }
+
+  .input-wrapper .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #d0d5de;
+  }
+
+  .input-data input:focus ~ label,
+  .input-data input:valid ~ label {
+    transform: translateY(-28px);
+    font-size: 0.85rem;
+    color: #005eff;
+  }
+
+  .input-wrapper .input-data label {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    color: #757a89;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .input-wrapper .input-data .input-underline {
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+  }
+
+  .input-data .input-underline::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #005eff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .input-data input:focus ~ .input-underline::before,
+  .input-data input:valid ~ .input-underline::before {
+    transform: scaleX(1);
+  }
 }
 
 @layer utilities {
