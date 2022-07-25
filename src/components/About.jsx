@@ -4,7 +4,7 @@ import { BsCheckCircleFill } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="about section bg-white-1">
+    <div className="about min-h-screen section bg-white-1">
       <div className="section-container py-36 flex justify-center items-center gap-16">
         {/* Left Image Div */}
         <div className="flex-1 flex justify-center items-center">
