@@ -20,7 +20,7 @@ const Services = () => {
           </p>
         </div>
         {/* Service Cards */}
-        <div className="w-full grid grid-cols-[18rem_18rem_18rem] justify-evenly gap-8 mb-16">
+        <div className="w-full grid grid-cols-[18rem_18rem_18rem] justify-evenly gap-8 ">
           <ServiceCard
             serviceIcon={webdesicon}
             serviceName="Web Design"
