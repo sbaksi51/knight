@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sbaksi51/Campeon.git/static/css/main.051bd872.css",
+    "main.js": "/sbaksi51/Campeon.git/static/js/main.37b2242f.js",
+    "static/media/team.svg": "/sbaksi51/Campeon.git/static/media/team.e431e2dad9e3bb065f2a2963fb66e638.svg",
+    "static/media/hero.svg": "/sbaksi51/Campeon.git/static/media/hero.45529380bc19bf6233b876518390c118.svg",
+    "static/media/video.png": "/sbaksi51/Campeon.git/static/media/video.5ce6d84619e93b0ef7ff.png",
+    "static/media/uiux.png": "/sbaksi51/Campeon.git/static/media/uiux.758b9908024a87f88256.png",
+    "static/media/webdes.png": "/sbaksi51/Campeon.git/static/media/webdes.16274c9e08182554c5e3.png",
+    "static/media/logo.png": "/sbaksi51/Campeon.git/static/media/logo.cae79b4d28ffc3e724b9.png",
+    "static/media/seo.png": "/sbaksi51/Campeon.git/static/media/seo.44f3660456bf6bc8689e.png",
+    "static/media/digital.png": "/sbaksi51/Campeon.git/static/media/digital.073fd40136128dc04fad.png",
+    "static/media/webdev.png": "/sbaksi51/Campeon.git/static/media/webdev.e1cf1b914944c17bbafe.png",
+    "static/media/rightarrow.svg": "/sbaksi51/Campeon.git/static/media/rightarrow.b62222666714199b5a947501ee38f316.svg",
+    "index.html": "/sbaksi51/Campeon.git/index.html",
+    "main.051bd872.css.map": "/sbaksi51/Campeon.git/static/css/main.051bd872.css.map",
+    "main.37b2242f.js.map": "/sbaksi51/Campeon.git/static/js/main.37b2242f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.051bd872.css",
+    "static/js/main.37b2242f.js"
+  ]
+}
