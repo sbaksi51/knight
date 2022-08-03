@@ -9,32 +9,29 @@ const Hero = () => {
         {/* Text Left Div */}
         <div className="hero__text flex-1 flex flex-col justify-center items-start gap-2">
           <h2 className="text-2xl text-grey-2 font-normal">
-            Welcome to Company
+            Welcome to Campeon
           </h2>
           <div className="wrapper box-content flex h-[90px] font-bold text-[4rem] text-black-1">
-            <h1>We</h1>
+            <h1>Groom</h1>
             <div className="words overflow-hidden text-main">
               <span className="block h-full pl-4 animate-word-carousel">
-                Design
+                In Style
               </span>
               <span className="block h-full pl-4 animate-word-carousel">
-                Develop
+                In Elegance
               </span>
               <span className="block h-full pl-4 animate-word-carousel">
-                Deliver
+                In Flair
               </span>
               <span className="block h-full pl-4 animate-word-carousel">
-                Design
+                In Style
               </span>
             </div>
           </div>
           <h2 className="text-2xl text-grey-2 font-normal">
-            A fully integrated digital solutions agency
+            Explore our products and get to know us
           </h2>
           <div className="buttons flex justify-start items-center gap-4 mt-6">
-            <button className="btn">
-              Get Started <FaCaretRight />
-            </button>
             <button className="btn-2">
               <a href="#services">Learn More</a>
               <FaCaretRight />

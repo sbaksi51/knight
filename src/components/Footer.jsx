@@ -18,13 +18,9 @@ const Footer = () => {
           <div className="navbar__logo--container flex justify-center items-center gap-2">
             <img src={Logo} alt="company logo" className="logo h-10 w-10" />
             <h1 className="logo__name font-semibold text-[20px] text-black-1">
-              Company
+              Campeon
             </h1>
           </div>
-          {/* Description */}
-          <p className="text-grey-2">
-            A Fully Integrated Digital Solutions Agency
-          </p>
           {/* Details */}
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="flex justify-center items-center gap-2 text-grey-2">
@@ -79,9 +75,6 @@ const Footer = () => {
             <p className="font-normal text-grey-2 text-sm">
               Cancellation & Refund
             </p>
-            <p className="font-normal text-grey-2 text-sm">
-              Do not sell my info
-            </p>
           </div>
         </div>
 
@@ -90,7 +83,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-center text-grey-2">
-          CompanyName | Copyright &copy; 2022. All right reserved.
+          Campeon | Copyright &copy; 2022. All right reserved.
         </p>
       </div>
     </div>

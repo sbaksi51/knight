@@ -16,9 +16,9 @@ const Navbar = () => {
         {/* Logo Div */}
         <div className="navbar__logo--container flex justify-center items-center gap-2">
           <img src={Logo} alt="company logo" className="logo h-10 w-10" />
-          <h1 className="logo__name font-semibold text-[20px] text-black-1">
-            Company
-          </h1>
+          <Link to="/" className="logo__name font-semibold text-[20px] text-black-1">
+          Campeon
+          </Link>
         </div>
         {/* Navlinks Div */}
         <nav className="navlinks flex justify-center items-center gap-6">
@@ -36,7 +36,7 @@ const Navbar = () => {
             className="navlink group relative flex justify-center items-center cursor-pointer"
             onClick={handleDropdown}
           >
-            Services
+            Products
             {dropdown ? <BiChevronUp /> : <BiChevronDown />}
             <div
               className={
@@ -46,77 +46,27 @@ const Navbar = () => {
               }
             >
               <NavLink
-                to="webdesign"
+                to="specs"
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
                     : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
-                Web Design
+                Sunglasses
               </NavLink>
               <NavLink
-                to="webdev"
+                to="wallets"
                 className={({ isActive }) =>
                   isActive
                     ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
                     : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
                 }
               >
-                Web Development
-              </NavLink>
-              <NavLink
-                to="uiux"
-                className={({ isActive }) =>
-                  isActive
-                    ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
-                }
-              >
-                UI/UX Design
-              </NavLink>
-              <NavLink
-                to="digitalmarketing"
-                className={({ isActive }) =>
-                  isActive
-                    ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
-                }
-              >
-                Digital Marketing
-              </NavLink>
-              <NavLink
-                to="seo"
-                className={({ isActive }) =>
-                  isActive
-                    ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
-                }
-              >
-                SEO
-              </NavLink>
-              <NavLink
-                to="videoediting"
-                className={({ isActive }) =>
-                  isActive
-                    ? "navlink text-main font-medium hover:text-white-1 hover:bg-main-light w-full p-2 rounded-md ease-in-out duration-300"
-                    : "navlink hover:text-white-1 hover:bg-main w-full p-2 rounded-md ease-in-out duration-300"
-                }
-              >
-                Video Editing
-              </NavLink>
+                Wallets
+              </NavLink>              
             </div>
           </div>
-          <NavLink
-            to="projects"
-            className={({ isActive }) =>
-              isActive
-                ? "navlink text-main font-medium ease-in-out duration-300"
-                : "navlink hover:text-main ease-in-out duration-300"
-            }
-          >
-            Projects
-          </NavLink>
           <NavLink
             to="contact"
             className={({ isActive }) =>
@@ -125,10 +75,10 @@ const Navbar = () => {
                 : "navlink hover:text-main ease-in-out duration-300"
             }
           >
-            Contact
+            Contact Us
           </NavLink>
-          <Link to="contact" className="nav__btn btn">
-            Get started
+          <Link to="signup" className="nav__btn btn">
+            Sign Up
           </Link>
         </nav>
       </div>
